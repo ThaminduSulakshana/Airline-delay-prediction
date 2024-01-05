@@ -8,6 +8,6 @@ Utilizing raw data
 - Grid search was employed to find the optimal hyperparameters for the Random Forest model. This ensures the model is fine-tuned for the best predictive performance.
 - The model's performance was evaluated using 10-fold cross-validation, providing a robust assessment of its generalization capabilities.
 
-The app is built using the Flask web framework and offers an intuitive interface to enter questions and get answers[Video](https://drive.google.com/file/d/1jOVZH4nUHl-4o3PGauEOlcPz-bVlRftE/view?usp=sharing).
+The app is built using the Flask web framework and offers an intuitive interface to predict arrival delays in airliness[Video](https://drive.google.com/file/d/1jOVZH4nUHl-4o3PGauEOlcPz-bVlRftE/view?usp=sharing).
 
 ![Image Alt Text](https://github.com/ThaminduSulakshana/Airline-delay-prediction/blob/b720f0b326667b92f91c274c0a7f424597cdd8ee/Screenshot%20(282).png)
