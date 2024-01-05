@@ -10,4 +10,4 @@ Utilizing raw data
 
 The app is built using the Flask web framework and offers an intuitive interface to enter questions and get answers[Video](https://drive.google.com/file/d/1jOVZH4nUHl-4o3PGauEOlcPz-bVlRftE/view?usp=sharing).
 
-![Image Alt Text](Screenshot (282).png)
+![Image Alt Text](https://github.com/ThaminduSulakshana/Airline-delay-prediction/blob/b720f0b326667b92f91c274c0a7f424597cdd8ee/Screenshot%20(282).png)
