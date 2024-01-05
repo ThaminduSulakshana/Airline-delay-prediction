@@ -3,11 +3,11 @@ Overview
 This project focuses on predicting arrival delays in airlines using a binary classification model, specifically employing the Random Forest algorithm. Notably, departure delay is intentionally excluded as an input feature to explore the model's capability to predict arrival delays independently.
 
 Utilizing raw data
-Applying Principal Component Analysis (PCA) transformation to the data
-It was observed that the PCA-transformed data yielded marginal improvements in model performance.
+- Applying Principal Component Analysis (PCA) transformation to the data
+- It was observed that the PCA-transformed data yielded marginal improvements in model performance.
+- Grid search was employed to find the optimal hyperparameters for the Random Forest model. This ensures the model is fine-tuned for the best predictive performance.
+- The model's performance was evaluated using 10-fold cross-validation, providing a robust assessment of its generalization capabilities.
 
-Parameter Tuning
-Grid search was employed to find the optimal hyperparameters for the Random Forest model. This ensures the selected model is fine-tuned for the best predictive performance.
+The app is built using the Flask web framework and offers an intuitive interface to enter questions and get answers[Video](https://drive.google.com/file/d/1jOVZH4nUHl-4o3PGauEOlcPz-bVlRftE/view?usp=sharing).
 
-Evaluation
-The model's performance was evaluated using 10-fold cross-validation, providing a robust assessment of its generalization capabilities.
+![Image Alt Text](Screenshot (282).png)
