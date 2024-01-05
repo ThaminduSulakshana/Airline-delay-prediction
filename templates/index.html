@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="shortcut icon" href="/static/img/dp2233.jpg">
+    <title>Flight Delay Prediction</title>
+</head>
+<body>
+    <h1>Flight Delay Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="year">Year:</label>
+        <input type="number" name="year" required><br>
+
+        <label for="month">Month:</label>
+        <input type="number" name="month" required><br>
+
+        <label for="arr_time">Estimated Arrival Time:</label>
+        <input type="number" name="arr_time" required><br>
+
+        <label for="distance">Distance:</label>
+        <input type="number" name="distance" required><br>
+        <div class="result-box1">
+        <p>
+            If the arrival is delayed more than 15 minutes then 'The flight is delayed' or if the arrival is less than 15 minutes 'The flight is not delayed'.
+        </p>
+        </div>
+        <br>
+        <button type="submit">SUBMIT</button>
+    </form>
+
+    <div class="result-box">
+        {% if prediction == 0 %}
+            <p class="not-delayed">The flight is not delayed.</p>
+        {% else %}
+            <p class="delayed">The flight is delayed.</p>
+        {% endif %}
+    </div>
+</body>
+</html>
